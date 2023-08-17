@@ -48,6 +48,7 @@ local config = {
       ["local"] = require("laravel.environment.native").setup(),
       ["sail"] = require("laravel.environment.sail").setup(),
       ["docker-compose"] = require("laravel.environment.docker_compose").setup(),
+      ["ddev"] = require("laravel.environment.ddev").setup(),
     },
   },
   resources = {
